@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  react:
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/workspace:cached
+      - home:/home
+    environment:
+      TZ: "Asia/Tokyo"
+volumes:
+  home:

@@ -1,0 +1,19 @@
+{
+    "name": "python-nodejs",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "react",
+    "workspaceFolder": "/home",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "garytyler.darcula-pycharm",
+                "mhutchie.git-graph",
+                "github.copilot",
+                "visualstudioexptteam.vscodeintellicode",
+                "christian-kohler.path-intellisense",
+                "shardulm94.trailing-spaces"
+            ]
+        }
+    }
+}
